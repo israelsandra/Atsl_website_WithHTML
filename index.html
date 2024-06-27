@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
     <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,
      300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap-grid.min.css"> -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>ATSL home page</title>
 </head>
 <body>
-    <header class="header" id="home">
+    <header class="header" >
 
         <img src="./images/ADPT LOGO.png"  class="logo">
         <div class="nav-box">
@@ -23,27 +24,27 @@
                 <a href="#services">Services</a>
                 <a href="#contact">Contact-Us</a>
             </nav>
-            <a href=""><i class="ri-menu-3-line menu"></i></a>
+            <!-- <p><i class="ri-menu-3-line menu"></i></p> -->
         </div>
         
 
     </header>
     
     <!-- body  -->
-    <section class="body">
-        <div class="slidebox">
+    <section class="body" id="home">
+        <!-- <div class="slidebox">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact-Us</a></li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="text-box">
             <b>Adaptive Tech Solutions Limited</b>
             <div class="text">
                 <p>
-                    is your number one Tech Solutions Company that
+                    Is your number one Tech Solutions Company that
                     provides simple, safe and effective solutions for all your business processes, complexities 
                     and needs. 
                 </p>
@@ -63,7 +64,7 @@
 
         <div class="img">
             <!-- <img src="./images/computer.png" class="img-fluid animated"> -->
-            <img src="./images/laptop-launched-design.png" class="img-fluid animated">
+            <img src="./images/front_image.jpeg" class="img-fluid animated">
         </div>
     </section>
     <!-- ends  -->
@@ -80,16 +81,17 @@
                     <i class="ri-code-box-line"></i><br><br>
                     <span>Website and Web App Development</span>
                     <p>
-                        Lorem ipsum dolor, sit amet
-                         consectetur adipisicing elit. Tempore, iste.
+                        We provide comprehensive services for designing, building, maintaining, and 
+                        managing websites and web applications tailored to our clients' needs. 
                     </p>
                 </div>
                 <div class="smallbox">
                     <i class="ri-team-line"></i><br><br>
                     <span>IT Consultancy</span>
                     <p>
-                        Lorem ipsum dolor, sit amet
-                         consectetur adipisicing elit. Tempore, iste.
+                        We offer expert advice and guidance 
+                        to organizations on maximizing the use of technology to achieve 
+                        their goals and maximize available resources.
                     </p>
                 </div>
             </div>
@@ -98,16 +100,16 @@
                     <i class="ri-file-ppt-2-line"></i><br><br>
                     <span>Technical Project Management</span>
                     <p>
-                        Lorem ipsum dolor, sit amet
-                         consectetur adipisicing elit. Tempore, iste.
+                        We oversee and coordinate the planning, execution, and 
+                        delivery of technical projects, ensuring they meet the required quality standards. 
                     </p>
                 </div>
                 <div class="smallbox">
                     <i class="ri-centos-line"></i><br><br>
                     <span>System / Project Engineering Automation</span>
                     <p>
-                        Lorem ipsum dolor, sit amet
-                         consectetur adipisicing elit. Tempore, iste.
+                        We design, develop, and implement automated solutions 
+                        to streamline and optimize system and project engineering processes.
                     </p>
                 </div>
             </div>
@@ -128,18 +130,20 @@
     <section id="cta" class="cta">
         <div class="cta-box">
             <div class="top">
-                <h1>our clients / customers includes</h1>
+                <h1>Our Clients</h1>
             </div>
-            <marquee style="height: 100px;" >
-                <img src="./images/asco.jpeg">
+            <div class="imgBox">
+                <img src="./images/asco logo.jpeg">
+                <img src="./images/pio_logo.jpeg" class="pio">
+            </div>
+            <!-- <marquee style="height: 100px;" > -->
                     <!-- <p>Four Princess</p> -->    
-                <img src="./images/asco.jpeg">
                     <!-- <p>P. I. O Suits LTD</p> -->    
-                <img src="./images/asco.jpeg">
+                <!-- <img src="./images/asco logo.jpeg" id="asco_img"> -->
                     <!-- <p>Ashaka Security Company</p> -->    
-                <img src="./images/asco.jpeg">
+                <!-- <img src="./images/pio_logo.jpeg"> -->
                     <!-- <p>New Dawn Affordable Care</p> -->
-            </marquee>
+            <!-- </marquee> -->
             <!-- <div class="parent"> -->
                 
         </div>
@@ -152,7 +156,7 @@
             <div class="top">
                 <h1>Contact-Us</h1>
             </div>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+          <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p> -->
         </div>
 
         <div class="container">
@@ -170,9 +174,9 @@
                 <div class="phone content2">
                     <i class="ri-phone-line"></i>
                     <div class="">
-                        <p><span>Call Us </span><br>
-                           +234 916 034 3983
-                        </p>
+                        <p><span>Call Us</span><br>
+                            +234 916 034 3983
+                         </p>
                     </div>
                 </div>
                
@@ -190,37 +194,26 @@
             </div>
   
             
-            <form action="forms/contact.php" method="post" role="form" class="contents">
+            <form class="contents" id="contactForm">
+                <div id="contactFormResult"></div>
                 <div class="formBox">
                     <div class="row">
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <input type="text" name="first name" class="form-control" id="first name" required placeholder="first name ...">
-                        </div>
-    
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <input type="text" name="last name" class="form-control" id="last name" required placeholder="last name ...">
-                        </div>
-            
-                        <div class="col-sm-4 col-md-4 col-lg-4">
-                            <input type="tel" class="form-control" name="phone" id="tel" required placeholder="phone ...">
-                        </div>
-    
+                        <input type="text" name="name" class="formControl" id="first name" 
+                        required placeholder="Name ..." onkeypress="return alpha(event);">
+                        <input type="text" class="formControl" maxlength="11"  name="phone" id="tel" 
+                        required placeholder="phone ..." onkeypress="return event.charCode && event.charCode<=57"> 
                     </div>
-                    
-                    <div class="row1">
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <input type="email" class="form-control" name="email" id="email" required placeholder="email ...">
-                        </div>
-    
-                        <div class="col-sm-6 col-md-6 col-lg-6">
-                            <input type="text" class="form-control" name="subject" id="subject" required placeholder="subject ...">
-                        </div>
+                    <input type="hidden" name="access_key" value="59fbb566-cdc1-41d0-98de-acec43efcec7">
+                    <div class="row">
+                        <input type="email" class="formControl" name="email" id="email" required placeholder="email ...">
+                        <input type="text" class="formControl" name="subject" id="subject" 
+                        required placeholder="subject ..." onkeypress="return alpha(event);">
                     </div>
                 </div>
                 
                 <div class="form-group">
                     <label for="name">Message</label>
-                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                    <textarea class="formControl" name="message" rows="10" required></textarea>
                 </div>
                 
                 <div class="my-3">
@@ -229,7 +222,8 @@
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
 
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <button type="submit" class="btn btn-lg btn-dark btn-block">Send Message</button>
+                
             </form>
             
         </div>
@@ -237,18 +231,7 @@
     <!-- contact ends  -->
 
     
-    <!-- footer  -->
-    <footer>
-        <div class="socials">
-            <b class="one">Our social Networks</b>
-            <div class="social-icon">
-                <div class="icons"><a><i class="ri-instagram-fill"></i></a></div>
-                <div class="icons"><a><i class="ri-twitter-fill"></i></a></div>
-                <div class="icons"><a><i class="ri-facebook-circle-fill"></i></a></div>
-                <div class="icons"><a><i class="ri-linkedin-fill"></i></a></div>
-            </div>
-        </div>
-    </footer>
+    <!-- footer  -->0
     <div class="last">
         <hr>
         <p>© Copyright <b>ATSL</b> All Rights Reserved</p>
@@ -256,9 +239,12 @@
     <!-- footer ends  -->
 
     <!-- preloader  -->
-    <!-- <div id="preloader"></div> -->
+    <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
     <script src="./main.js"></script>
 </body>
 </html>
