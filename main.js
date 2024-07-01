@@ -44,7 +44,7 @@ form.addEventListener('submit', function(e) {
     result.style.fontSize="1.5rem"
 
 
-    fetch('https://api.web3forms.com/submit', {
+    fetch('https://test.atslng.com/includes/sendmail.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -64,6 +64,7 @@ form.addEventListener('submit', function(e) {
         .catch(error => {
             console.log(error);
             result.innerHTML = "Something went wrong!";
+            result.style.color="red"
         })
         .then(function() {
             form.reset();
