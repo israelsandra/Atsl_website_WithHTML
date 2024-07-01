@@ -1,3 +1,29 @@
+<!-- <php
+    if (isset($_POST['submit'])){
+        $mailto = "israelsandra2000@gmail.com";
+        $from = $_POST['email']; 
+        $name = $_POST['name']; 
+        $subject = $_POST['subject']; 
+        $subject2 = "Your Message Submitted Successfully"; 
+        $message = "Client Name: ". $name. "Wrote the following message". "\n\n". $_POST['message'];
+        $message2 = "Dear ". $name. "\n\n" ."thank you for contacting us! we'll get back to you shortly";
+        $headers = "From: ". $from;
+        $headers2 = "From: ". $mailto;
+        $result = mail( $mailto, $subject, $message $headers);
+        $result = mail( $from, $subject2, $message2 $headers2);
+
+        if ($result) {
+            echo '<script type="text/javascript">alert("message sent.thank you! we'll contact you shortly")</script>';
+        }else {
+            echo '<script type="text/javascript">alert("submission failed ! try again later")</script>';
+        }
+
+
+    }
+?> -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -194,7 +220,7 @@
             </div>
   
             
-            <form class="contents" id="contactForm">
+            <form class="contents" id="contactForm" >
                 <div id="contactFormResult"></div>
                 <div class="formBox">
                     <div class="row">
@@ -244,7 +270,6 @@
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
     <script src="./main.js"></script>
 </body>
 </html>
