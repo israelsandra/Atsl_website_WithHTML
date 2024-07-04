@@ -44,7 +44,7 @@ form.addEventListener('submit', function(e) {
     result.style.fontSize="1.5rem"
 
 
-    fetch('https://test.atslng.com/includes/sendmail.php', {
+    fetch('https://atslng.com/includes/sendmail.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
