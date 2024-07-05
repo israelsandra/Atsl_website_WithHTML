@@ -3,9 +3,9 @@ const preloader = document.querySelector("#preloader")
 
 // Hide the preloader after a specified timeout (e.g., 1500 milliseconds)
 window.onload = function() {
-    setTimeout(() => {
+    // setTimeout(() => {
       preloader.style.display = "none"
-    }, 1000);
+    // }, 1000);
 };
 
 // const menu = document.querySelector(".menu");
